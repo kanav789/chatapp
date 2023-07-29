@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 0px 3px;
+}
+
+#icon {
+  width: 70px;
+}
+.container {
+  width: 90vh;
+  margin: auto;
+  border: 2px solid black;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 8px;
+  margin: 8px;
+}
+#right {
+  float: right;
+  clear: both;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 7px 14px;
+  margin: 4px;
+  background-color: aquamarine;
+}
+
+#left {
+  float: left;
+  clear: both;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 5px;
+  margin: 4px;
+  border-radius: 7px 14px;
+  background-color: rgb(97, 99, 99);
+}
+
+.form {
+  text-align: center;
+  padding: 9px;
+}
+
+#inp {
+  width: 83vh;
+  height: 4vh;
+  border: 2px solid black;
+}
